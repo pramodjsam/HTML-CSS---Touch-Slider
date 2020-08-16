@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Touch Slider</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	 <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+	 <!--google fonts-->
+	 
+	 <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="main">
+	<div class="header">
+		<img src="images/menu.png" class="menu-icon">
+		<p>MEET UP</p>
+		<img src="images/bell.png" class="bell-icon">
+	</div>
+	<div class="main-text">
+		<h2>OUR TEAM</h2>
+		<small>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla rutrum tincidunt justo, vel cursus lorem posuere eget. Suspendisse potenti. Praesent felis justo, imperdiet sed dui.</small>
+			<!-- Swiper -->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+      	<img src="images/img-1.jpeg">
+      	<div class="info">
+      		<h3>Thomas Markle</h3>
+      		<p>Founder & CEO</p>
+      		<a href="">Contact</a>
+      	</div>
+      </div>
+      <div class="swiper-slide">
+      	<img src="images/img-2.jpeg">
+		<div class="info">
+      		<h3>Thomas Markle</h3>
+      		<p>Founder & CEO</p>
+      		<a href="">Contact</a>
+      	</div>
+      </div>
+      <div class="swiper-slide">
+      	<img src="images/img-3.jpeg">
+      	<div class="info">
+      		<h3>Thomas Markle</h3>
+      		<p>Founder & CEO</p>
+      		<a href="">Contact</a>
+      	</div>
+      </div>
+      <div class="swiper-slide">
+      	<img src="images/img-4.jpeg">
+      	<div class="info">
+      		<h3>Thomas Markle</h3>
+      		<p>Founder & CEO</p>
+      		<a href="">Contact</a>
+      	</div>
+      </div>
+      <div class="swiper-slide">
+      	<img src="images/img-5.jpeg">
+      	<div class="info">
+      		<h3>Thomas Markle</h3>
+      		<p>Founder & CEO</p>
+      		<a href="">Contact</a>
+      	</div>
+      </div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+	</div>
+
+
+
+	<div class="footer-menu">
+		<img src="images/home.png">
+		<img src="images/search.png">
+		<img src="images/user.png">
+		<img src="images/back.png">
+	</div>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+ <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
+<!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      centeredSlides:true,
+      grabCursor:true,
+      loop: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+    });
+  </script>
+</body>
+</html>
